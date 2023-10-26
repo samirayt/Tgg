@@ -68,4 +68,5 @@ w.DescendantAdded:Connect(function(v)
         v.ShirtGraphic=0
     elseif (v:IsA("Shirt") or v:IsA("Pants")) and decalsyeeted then
         v[v.ClassName.."Template"]=0
+     end
 end)
